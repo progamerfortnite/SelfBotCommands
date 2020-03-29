@@ -1,1 +1,1 @@
-<?php header( 'Location: /Atomics Uploader.html' ) ;  ?>
+<?php header( 'Location: /index.html' ) ;  ?>
