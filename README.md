@@ -10,7 +10,7 @@ ID:       (https://www.youtube.com/watch?v=KAOfKtqE0X0)
 Token: 	  (https://www.youtube.com/watch?v=tI1lzqzLQCs)
 Commands: (https://selfbothelp.herokuapp.com)
 
-After you entered your Token and your ID, open install.bat.
+After you entered your Token and your ID, open install.exe.
 After you did that you are going to open Atomics SelfBot.exe
 And if you have any suggestions or issues just dm me on Discord! AtomicFN#7727
 Have fun!
