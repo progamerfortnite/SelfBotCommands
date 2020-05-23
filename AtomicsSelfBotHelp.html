@@ -14,15 +14,20 @@
     <meta itemprop="name" content="Atomic SelfBot Help">
     <meta itemprop="description" content="Atomic SelfBot Help">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	 <script>
+  function showAlert() {
+    alert ("Thanks for your rating");
+  }
+  </script>
 </head>
 
 <body>
+
 <!--content-->
 <section id="home">
 <h1>Atomics SelfBot Commands</h1>
 <a>Commands [80]</p></section>
 <a>Here, you will find all commands for Atomics SelfBot!</p></section>
-	
 <div class="arrow">
     <span></span></div>
 	</div>
@@ -274,17 +279,18 @@
 <section id="home">
 <h1>Leave a Review</h1>
 <div class="rate">
-    <input type="radio" id="star5" name="rate" value="5" />
+    <input type="radio" id="star5" onclick="showAlert()" name="rate" value="5" />
     <label for="star5" title="5 Stars">5 stars</label>
-    <input type="radio" id="star4" name="rate" value="4" />
+    <input type="radio" id="star4" onclick="showAlert()" name="rate" value="4" />
     <label for="star4" title="4 Stars">4 stars</label>
-    <input type="radio" id="star3" name="rate" value="3" />
+    <input type="radio" id="star3" onclick="showAlert()" name="rate" value="3" />
     <label for="star3" title="3 Stars">3 stars</label>
-    <input type="radio" id="star2" name="rate" value="2" />
+    <input type="radio" id="star2" onclick="showAlert()" name="rate" value="2" />
     <label for="star2" title="2 Stars">2 stars</label>
-    <input type="radio" id="star1" name="rate" value="1" />
+    <input type="radio" id="star1" onclick="showAlert()" name="rate" value="1" />
     <label for="star1" title="1 Star">1 star</label>
 </section>
+
 <style>
 .rate {
     float: left;
